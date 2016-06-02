@@ -1,0 +1,52 @@
+#define KERNEL_SIZE 11
+
+// fyi: 1/sqrt(2*pi) = 0.3989422803
+const float GAUSS_MULTIPLIER = 0.3989422803;
+
+float gauss(float x, float sigma)
+{
+return GAUSS_MULTIPLIER * exp(-(pow(x, 2.0)) / (2.0 * pow(sigma, 2.0))) / sigma;
+}
+
+float gauss3(vec3 x, float sigma)
+{
+return GAUSS_MULTIPLIER * exp(-(dot(x, x)) / (2.0 * pow(sigma, 2.0))) / sigma;
+}
+
+kernel vec4 coreImageKernel(sampler image, float sigma_R, float sigma_S)
+{
+const int KernelRadius = (KERNEL_SIZE - 1) / 2;
+
+float convolution[KERNEL_SIZE];
+for (int i = 0; i <= KernelRadius; i++) {
+convolution[KernelRadius + i] =
+convolution[KernelRadius - i] =
+gauss(float(i), sigma_R);
+}
+
+float normalisationFactor = 0.0;
+vec3 colour = vec3(0.0);
+
+vec3 pixel = sample(image, samplerCoord(image)).rgb;
+float spacialWeightBaseReference = 1.0 / gauss(0.0, sigma_S);
+
+for (int i = -KernelRadius; i <= KernelRadius; i++) {
+for (int j = -KernelRadius; j <= KernelRadius; j++) {
+vec2 offsetCoord = samplerCoord(image).xy + vec2(i, j);
+vec3 offsetPixel = sample(image, offsetCoord).rgb;
+
+vec3 dist = offsetPixel - pixel;
+
+float range = convolution[KernelRadius + i] * convolution[KernelRadius + j];
+float spacial = gauss3(dist, sigma_S) * spacialWeightBaseReference;
+
+float weight = range * spacial;
+
+colour += weight * offsetPixel;
+normalisationFactor += weight;
+}
+}
+
+
+return vec4(colour / normalisationFactor, 1.0);
+}

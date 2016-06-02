@@ -8,11 +8,19 @@
 
 #import "NTJAppDelegate.h"
 
+#import "NTJMainWindowController.h"
+
+@interface NTJAppDelegate ()
+
+@property (nonatomic, strong) IBOutlet NTJMainWindowController *mainWindowController;
+
+@end
+
 @implementation NTJAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [self.mainWindowController showWindow:self];
 }
 
 @end
