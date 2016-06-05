@@ -1,12 +1,12 @@
 //
-//  NTJMainWindowController.m
-//  BilateralFilter
+//  ViewController.m
+//  NTJBilateralCIFilterDemo
 //
-//  Created by Joshua May on 12/04/13.
-//  Copyright (c) 2013 nojo inc. All rights reserved.
+//  Created by joshua may on 6/06/2016.
+//  Copyright © 2016 nojo inc. All rights reserved.
 //
 
-#import "NTJMainWindowController.h"
+#import "ViewController.h"
 
 #import "NTJBilateralFilterRunner.h"
 
@@ -26,14 +26,11 @@ NSSize sizeToAspectFitDimension(NSSize size, CGFloat dimension) {
     return NSMakeSize(dimension, dimension);
 }
 
-@interface NTJMainWindowController ()
+@interface ViewController ()
 
 @property (nonatomic, strong) IBOutlet NSImageView *preFilterImageView;
 @property (nonatomic, strong) IBOutlet NSImageView *postFilterImageView;
 @property (nonatomic, strong) IBOutlet NSPopUpButton *fileURLPopUpButton;
-
-@property (nonatomic, strong) IBOutlet NSSlider *sigmaSlider;
-@property (nonatomic, strong) IBOutlet NSSlider *bSigmaSlider;
 
 @property (nonatomic, strong) NSArray<NSURL *> *jpgs;
 
@@ -45,21 +42,12 @@ NSSize sizeToAspectFitDimension(NSSize size, CGFloat dimension) {
 
 @end
 
-@implementation NTJMainWindowController
+@implementation ViewController
 
-- (id)init {
-    self = [super initWithWindowNibName:NSStringFromClass([self class])];
-    if (self) {
-    }
-    
-    return self;
-}
+- (void)viewDidLoad {
+    [super viewDidLoad];
 
-- (void)windowDidLoad
-{
-    [super windowDidLoad];
-
-    NSURL *resources = [[NSBundle mainBundle] resourceURL];
+    NSURL *resources = [[NSBundle bundleForClass:[self class]] resourceURL];
     NSArray *files = [[NSFileManager defaultManager] contentsOfDirectoryAtURL:resources
                                                    includingPropertiesForKeys:nil
                                                                       options:0
@@ -78,8 +66,7 @@ NSSize sizeToAspectFitDimension(NSSize size, CGFloat dimension) {
 
 #pragma mark - Actions
 
-- (IBAction)whoaNewFile:(id)sender
-{
+- (IBAction)whoaNewFile:(id)sender {
     NSURL *url = self.jpgs[self.fileURLPopUpButton.indexOfSelectedItem];
 
     NSImage *image = [[NSImage alloc] initByReferencingURL:url];
@@ -92,23 +79,20 @@ NSSize sizeToAspectFitDimension(NSSize size, CGFloat dimension) {
     [self whoaNewSize:sender];
 }
 
-- (IBAction)whoaNewSize:(id)sender
-{
+- (IBAction)whoaNewSize:(id)sender {
     NSSize size = sizeToAspectFitDimension(self.preFilterImageView.image.size, self.sizeDimension);
     [self.filter prepareAsSize:size];
 
     [self whoaNewValues:sender];
 }
 
-- (IBAction)whoaNewValues:(id)sender
-{
+- (IBAction)whoaNewValues:(id)sender {
     [self work];
 }
 
 #pragma mark - Helper
 
-- (void)work
-{
+- (void)work {
     self.postFilterImageView.image = [self.filter runWithSigma_R:self.sigma_R sigma_S:self.sigma_S];
 }
 

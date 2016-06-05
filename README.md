@@ -14,9 +14,9 @@ It's almost certainly not the fastest/best implementation out there, but for sma
 Library Usage
 =============
 
-Inside of the project is the class `NTJBilateralCIFilter`. It extends `CIFilter`, so feel free to use it in other projects like you would any other `CIFilter`. Or take a look at `NTJBilateralFilterRunner` for some ideas on how to load content in.
+Inside of the project is the class `NTJBilateralCIFilter`. It extends `CIFilter`, so feel free to use it in other projects like you would any other `CIFilter`. Or take a look at `NTJBilateralFilterRunner` in the demo app for some ideas on how to load content in.
 
-Also, you'll need to bring `NTJBilateralCIFilter.cikernel` into your project.
+If you're manually including the code into your project, make sure to also bring `NTJBilateralCIFilter.cikernel` into your project.
 
 The three parameters are:
 
@@ -27,4 +27,4 @@ The three parameters are:
  TODO
  ====
 
-  - Set `NTJBilateralCIFilter` as a library with bundle to include `.cikernel`.
+  - [ ] iOS demo (and compatibility? afaik it should Just Work™ though)

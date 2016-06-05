@@ -7,129 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		421DB1E717195EA400105DD5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 421DB1D417195EA400105DD5 /* Credits.rtf */; };
-		421DB1E917195EA400105DD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 421DB1D917195EA400105DD5 /* InfoPlist.strings */; };
-		421DB1EA17195EA400105DD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 421DB1DA17195EA400105DD5 /* main.m */; };
-		421DB1EB17195EA400105DD5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421DB1DB17195EA400105DD5 /* MainMenu.xib */; };
-		421DB1EC17195EA400105DD5 /* NTJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 421DB1DD17195EA400105DD5 /* NTJAppDelegate.m */; };
-		421DB1F017195EA400105DD5 /* NTJMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 421DB1E417195EA400105DD5 /* NTJMainWindowController.m */; };
-		421DB1F117195EA400105DD5 /* NTJMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421DB1E517195EA400105DD5 /* NTJMainWindowController.xib */; };
-		4285631517189993008EAE7C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4285631417189993008EAE7C /* Cocoa.framework */; };
-		428EDE6C1CFDDE9E009CCC5D /* NTJBilateralFilterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EDE6B1CFDDE9E009CCC5D /* NTJBilateralFilterRunner.m */; };
-		428EDE6F1CFDE002009CCC5D /* NTJBilateralCIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */; };
-		428EDE711CFDE012009CCC5D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428EDE701CFDE012009CCC5D /* CoreImage.framework */; };
-		428EDE731CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */; };
-		428EDE751CFDEC4D009CCC5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428EDE741CFDEC4D009CCC5D /* QuartzCore.framework */; };
-		42CE92CA1D00D005007E4BC0 /* apatt_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92BF1D00D005007E4BC0 /* apatt_1.jpg */; };
-		42CE92CB1D00D005007E4BC0 /* apatt_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C01D00D005007E4BC0 /* apatt_2.jpg */; };
-		42CE92CC1D00D005007E4BC0 /* apatt_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C11D00D005007E4BC0 /* apatt_3.jpg */; };
-		42CE92CD1D00D005007E4BC0 /* apatt_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C21D00D005007E4BC0 /* apatt_4.jpg */; };
-		42CE92CE1D00D005007E4BC0 /* bigblack_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C31D00D005007E4BC0 /* bigblack_1.jpg */; };
-		42CE92CF1D00D005007E4BC0 /* mdam_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C41D00D005007E4BC0 /* mdam_1.jpg */; };
-		42CE92D01D00D005007E4BC0 /* pantha_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C51D00D005007E4BC0 /* pantha_1.jpg */; };
-		42CE92D11D00D005007E4BC0 /* shellac_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C61D00D005007E4BC0 /* shellac_1.jpg */; };
-		42CE92D21D00D005007E4BC0 /* shellac_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C71D00D005007E4BC0 /* shellac_2.jpg */; };
-		42CE92D31D00D005007E4BC0 /* shellac_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C81D00D005007E4BC0 /* shellac_3.jpg */; };
-		42CE92D41D00D005007E4BC0 /* ursprung_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CE92C91D00D005007E4BC0 /* ursprung_1.jpg */; };
+		422181AF1D047764003A015B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422181AE1D047764003A015B /* AppDelegate.m */; };
+		422181B21D047764003A015B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422181B11D047764003A015B /* main.m */; };
+		422181B51D047764003A015B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422181B41D047764003A015B /* ViewController.m */; };
+		422181B71D047764003A015B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422181B61D047764003A015B /* Assets.xcassets */; };
+		422181BA1D047764003A015B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422181B81D047764003A015B /* Main.storyboard */; };
+		422181CA1D0479E0003A015B /* apatt_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181BF1D0479E0003A015B /* apatt_1.jpg */; };
+		422181CB1D0479E0003A015B /* apatt_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C01D0479E0003A015B /* apatt_2.jpg */; };
+		422181CC1D0479E0003A015B /* apatt_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C11D0479E0003A015B /* apatt_3.jpg */; };
+		422181CD1D0479E0003A015B /* apatt_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C21D0479E0003A015B /* apatt_4.jpg */; };
+		422181CE1D0479E0003A015B /* bigblack_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C31D0479E0003A015B /* bigblack_1.jpg */; };
+		422181CF1D0479E0003A015B /* mdam_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C41D0479E0003A015B /* mdam_1.jpg */; };
+		422181D01D0479E0003A015B /* pantha_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C51D0479E0003A015B /* pantha_1.jpg */; };
+		422181D11D0479E0003A015B /* shellac_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C61D0479E0003A015B /* shellac_1.jpg */; };
+		422181D21D0479E0003A015B /* shellac_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C71D0479E0003A015B /* shellac_2.jpg */; };
+		422181D31D0479E0003A015B /* shellac_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C81D0479E0003A015B /* shellac_3.jpg */; };
+		422181D41D0479E0003A015B /* ursprung_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C91D0479E0003A015B /* ursprung_1.jpg */; };
+		422181D71D0479FC003A015B /* NTJBilateralFilterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */; };
+		422181E01D047ADE003A015B /* NTJBilateralCIFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 422181DF1D047ADE003A015B /* NTJBilateralCIFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		422181E41D047ADE003A015B /* NTJBilateralCIFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */; };
+		422181E51D047ADE003A015B /* NTJBilateralCIFilter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		422181EA1D047B54003A015B /* NTJBilateralCIFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */; };
+		422181EB1D047B58003A015B /* NTJBilateralCIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		422181E21D047ADE003A015B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4285630917189993008EAE7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422181DC1D047ADE003A015B;
+			remoteInfo = NTJBilateralCIFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		422181E91D047ADE003A015B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				422181E51D047ADE003A015B /* NTJBilateralCIFilter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		421DB1D217195EA400105DD5 /* NTJBilateralCIFilter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NTJBilateralCIFilter-Info.plist"; path = "NTJBilateralCIFilter/NTJBilateralCIFilter-Info.plist"; sourceTree = "<group>"; };
-		421DB1D317195EA400105DD5 /* NTJBilateralCIFilter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NTJBilateralCIFilter-Prefix.pch"; path = "NTJBilateralCIFilter/NTJBilateralCIFilter-Prefix.pch"; sourceTree = "<group>"; };
-		421DB1D417195EA400105DD5 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = NTJBilateralCIFilter/Credits.rtf; sourceTree = "<group>"; };
-		421DB1D917195EA400105DD5 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = NTJBilateralCIFilter/InfoPlist.strings; sourceTree = "<group>"; };
-		421DB1DA17195EA400105DD5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NTJBilateralCIFilter/main.m; sourceTree = "<group>"; };
-		421DB1DB17195EA400105DD5 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = NTJBilateralCIFilter/MainMenu.xib; sourceTree = "<group>"; };
-		421DB1DC17195EA400105DD5 /* NTJAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTJAppDelegate.h; path = NTJBilateralCIFilter/NTJAppDelegate.h; sourceTree = "<group>"; };
-		421DB1DD17195EA400105DD5 /* NTJAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTJAppDelegate.m; path = NTJBilateralCIFilter/NTJAppDelegate.m; sourceTree = "<group>"; };
-		421DB1E317195EA400105DD5 /* NTJMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTJMainWindowController.h; path = NTJBilateralCIFilter/NTJMainWindowController.h; sourceTree = "<group>"; };
-		421DB1E417195EA400105DD5 /* NTJMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTJMainWindowController.m; path = NTJBilateralCIFilter/NTJMainWindowController.m; sourceTree = "<group>"; };
-		421DB1E517195EA400105DD5 /* NTJMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NTJMainWindowController.xib; path = NTJBilateralCIFilter/NTJMainWindowController.xib; sourceTree = "<group>"; };
-		4285631117189993008EAE7C /* NTJBilateralCIFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTJBilateralCIFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422181AB1D047764003A015B /* NTJBilateralCIFilterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTJBilateralCIFilterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422181AD1D047764003A015B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		422181AE1D047764003A015B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		422181B11D047764003A015B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		422181B31D047764003A015B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		422181B41D047764003A015B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		422181B61D047764003A015B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422181B91D047764003A015B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		422181BB1D047764003A015B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422181BF1D0479E0003A015B /* apatt_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_1.jpg; sourceTree = "<group>"; };
+		422181C01D0479E0003A015B /* apatt_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_2.jpg; sourceTree = "<group>"; };
+		422181C11D0479E0003A015B /* apatt_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_3.jpg; sourceTree = "<group>"; };
+		422181C21D0479E0003A015B /* apatt_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_4.jpg; sourceTree = "<group>"; };
+		422181C31D0479E0003A015B /* bigblack_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigblack_1.jpg; sourceTree = "<group>"; };
+		422181C41D0479E0003A015B /* mdam_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mdam_1.jpg; sourceTree = "<group>"; };
+		422181C51D0479E0003A015B /* pantha_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantha_1.jpg; sourceTree = "<group>"; };
+		422181C61D0479E0003A015B /* shellac_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shellac_1.jpg; sourceTree = "<group>"; };
+		422181C71D0479E0003A015B /* shellac_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shellac_2.jpg; sourceTree = "<group>"; };
+		422181C81D0479E0003A015B /* shellac_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shellac_3.jpg; sourceTree = "<group>"; };
+		422181C91D0479E0003A015B /* ursprung_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ursprung_1.jpg; sourceTree = "<group>"; };
+		422181D51D0479FC003A015B /* NTJBilateralFilterRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJBilateralFilterRunner.h; sourceTree = "<group>"; };
+		422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJBilateralFilterRunner.m; sourceTree = "<group>"; };
+		422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTJBilateralCIFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		422181DF1D047ADE003A015B /* NTJBilateralCIFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTJBilateralCIFilter.h; sourceTree = "<group>"; };
+		422181E11D047ADE003A015B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4285631417189993008EAE7C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4285631717189993008EAE7C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4285631817189993008EAE7C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4285631917189993008EAE7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		428EDE6A1CFDDE9E009CCC5D /* NTJBilateralFilterRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTJBilateralFilterRunner.h; path = NTJBilateralCIFilter/NTJBilateralFilterRunner.h; sourceTree = "<group>"; };
-		428EDE6B1CFDDE9E009CCC5D /* NTJBilateralFilterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTJBilateralFilterRunner.m; path = NTJBilateralCIFilter/NTJBilateralFilterRunner.m; sourceTree = "<group>"; };
-		428EDE6D1CFDE002009CCC5D /* NTJBilateralCIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTJBilateralCIFilter.h; path = NTJBilateralCIFilter/NTJBilateralCIFilter.h; sourceTree = "<group>"; };
-		428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTJBilateralCIFilter.m; path = NTJBilateralCIFilter/NTJBilateralCIFilter.m; sourceTree = "<group>"; };
+		428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJBilateralCIFilter.m; sourceTree = "<group>"; };
 		428EDE701CFDE012009CCC5D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NTJBilateralCIFilter.cikernel; path = NTJBilateralCIFilter/NTJBilateralCIFilter.cikernel; sourceTree = "<group>"; };
+		428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NTJBilateralCIFilter.cikernel; sourceTree = "<group>"; };
 		428EDE741CFDEC4D009CCC5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		42CE92BF1D00D005007E4BC0 /* apatt_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_1.jpg; path = NTJBilateralCIFilter/apatt_1.jpg; sourceTree = "<group>"; };
-		42CE92C01D00D005007E4BC0 /* apatt_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_2.jpg; path = NTJBilateralCIFilter/apatt_2.jpg; sourceTree = "<group>"; };
-		42CE92C11D00D005007E4BC0 /* apatt_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_3.jpg; path = NTJBilateralCIFilter/apatt_3.jpg; sourceTree = "<group>"; };
-		42CE92C21D00D005007E4BC0 /* apatt_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_4.jpg; path = NTJBilateralCIFilter/apatt_4.jpg; sourceTree = "<group>"; };
-		42CE92C31D00D005007E4BC0 /* bigblack_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigblack_1.jpg; path = NTJBilateralCIFilter/bigblack_1.jpg; sourceTree = "<group>"; };
-		42CE92C41D00D005007E4BC0 /* mdam_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mdam_1.jpg; path = NTJBilateralCIFilter/mdam_1.jpg; sourceTree = "<group>"; };
-		42CE92C51D00D005007E4BC0 /* pantha_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pantha_1.jpg; path = NTJBilateralCIFilter/pantha_1.jpg; sourceTree = "<group>"; };
-		42CE92C61D00D005007E4BC0 /* shellac_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_1.jpg; path = NTJBilateralCIFilter/shellac_1.jpg; sourceTree = "<group>"; };
-		42CE92C71D00D005007E4BC0 /* shellac_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_2.jpg; path = NTJBilateralCIFilter/shellac_2.jpg; sourceTree = "<group>"; };
-		42CE92C81D00D005007E4BC0 /* shellac_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_3.jpg; path = NTJBilateralCIFilter/shellac_3.jpg; sourceTree = "<group>"; };
-		42CE92C91D00D005007E4BC0 /* ursprung_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ursprung_1.jpg; path = NTJBilateralCIFilter/ursprung_1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4285630E17189993008EAE7C /* Frameworks */ = {
+		422181A81D047764003A015B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428EDE751CFDEC4D009CCC5D /* QuartzCore.framework in Frameworks */,
-				428EDE711CFDE012009CCC5D /* CoreImage.framework in Frameworks */,
-				4285631517189993008EAE7C /* Cocoa.framework in Frameworks */,
+				422181E41D047ADE003A015B /* NTJBilateralCIFilter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422181D91D047ADE003A015B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		421DB1D117195E9600105DD5 /* Classes */ = {
+		422181AC1D047764003A015B /* NTJBilateralCIFilterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				421DB1F217195EAA00105DD5 /* Supporting Files */,
-				421DB1DB17195EA400105DD5 /* MainMenu.xib */,
-				421DB1DC17195EA400105DD5 /* NTJAppDelegate.h */,
-				421DB1DD17195EA400105DD5 /* NTJAppDelegate.m */,
-				421DB1E317195EA400105DD5 /* NTJMainWindowController.h */,
-				421DB1E417195EA400105DD5 /* NTJMainWindowController.m */,
-				421DB1E517195EA400105DD5 /* NTJMainWindowController.xib */,
-				428EDE6A1CFDDE9E009CCC5D /* NTJBilateralFilterRunner.h */,
-				428EDE6B1CFDDE9E009CCC5D /* NTJBilateralFilterRunner.m */,
-				428EDE6D1CFDE002009CCC5D /* NTJBilateralCIFilter.h */,
-				428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */,
+				422181AD1D047764003A015B /* AppDelegate.h */,
+				422181AE1D047764003A015B /* AppDelegate.m */,
+				422181B31D047764003A015B /* ViewController.h */,
+				422181B41D047764003A015B /* ViewController.m */,
+				422181D51D0479FC003A015B /* NTJBilateralFilterRunner.h */,
+				422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */,
+				422181B61D047764003A015B /* Assets.xcassets */,
+				422181B81D047764003A015B /* Main.storyboard */,
+				422181BB1D047764003A015B /* Info.plist */,
+				422181B01D047764003A015B /* Supporting Files */,
 			);
-			name = Classes;
+			path = NTJBilateralCIFilterDemo;
 			sourceTree = "<group>";
 		};
-		421DB1F217195EAA00105DD5 /* Supporting Files */ = {
+		422181B01D047764003A015B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				421DB1D217195EA400105DD5 /* NTJBilateralCIFilter-Info.plist */,
-				421DB1D317195EA400105DD5 /* NTJBilateralCIFilter-Prefix.pch */,
-				421DB1D417195EA400105DD5 /* Credits.rtf */,
-				421DB1D917195EA400105DD5 /* InfoPlist.strings */,
-				421DB1DA17195EA400105DD5 /* main.m */,
-				42CE92BF1D00D005007E4BC0 /* apatt_1.jpg */,
-				42CE92C01D00D005007E4BC0 /* apatt_2.jpg */,
-				42CE92C11D00D005007E4BC0 /* apatt_3.jpg */,
-				42CE92C21D00D005007E4BC0 /* apatt_4.jpg */,
-				42CE92C31D00D005007E4BC0 /* bigblack_1.jpg */,
-				42CE92C41D00D005007E4BC0 /* mdam_1.jpg */,
-				42CE92C51D00D005007E4BC0 /* pantha_1.jpg */,
-				42CE92C61D00D005007E4BC0 /* shellac_1.jpg */,
-				42CE92C71D00D005007E4BC0 /* shellac_2.jpg */,
-				42CE92C81D00D005007E4BC0 /* shellac_3.jpg */,
-				42CE92C91D00D005007E4BC0 /* ursprung_1.jpg */,
-				428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */,
+				422181BF1D0479E0003A015B /* apatt_1.jpg */,
+				422181C01D0479E0003A015B /* apatt_2.jpg */,
+				422181C11D0479E0003A015B /* apatt_3.jpg */,
+				422181C21D0479E0003A015B /* apatt_4.jpg */,
+				422181C31D0479E0003A015B /* bigblack_1.jpg */,
+				422181C41D0479E0003A015B /* mdam_1.jpg */,
+				422181C51D0479E0003A015B /* pantha_1.jpg */,
+				422181C61D0479E0003A015B /* shellac_1.jpg */,
+				422181C71D0479E0003A015B /* shellac_2.jpg */,
+				422181C81D0479E0003A015B /* shellac_3.jpg */,
+				422181C91D0479E0003A015B /* ursprung_1.jpg */,
+				422181B11D047764003A015B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		422181DE1D047ADE003A015B /* NTJBilateralCIFilter */ = {
+			isa = PBXGroup;
+			children = (
+				422181DF1D047ADE003A015B /* NTJBilateralCIFilter.h */,
+				428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */,
+				428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */,
+				422181E11D047ADE003A015B /* Info.plist */,
+			);
+			path = NTJBilateralCIFilter;
 			sourceTree = "<group>";
 		};
 		4285630817189993008EAE7C = {
 			isa = PBXGroup;
 			children = (
-				421DB1D117195E9600105DD5 /* Classes */,
+				422181DE1D047ADE003A015B /* NTJBilateralCIFilter */,
+				422181AC1D047764003A015B /* NTJBilateralCIFilterDemo */,
 				4285631317189993008EAE7C /* Frameworks */,
 				4285631217189993008EAE7C /* Products */,
 			);
@@ -138,7 +170,8 @@
 		4285631217189993008EAE7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4285631117189993008EAE7C /* NTJBilateralCIFilter.app */,
+				422181AB1D047764003A015B /* NTJBilateralCIFilterDemo.app */,
+				422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,23 +199,54 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		422181DA1D047ADE003A015B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422181E01D047ADE003A015B /* NTJBilateralCIFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		4285631017189993008EAE7C /* NTJBilateralCIFilter */ = {
+		422181AA1D047764003A015B /* NTJBilateralCIFilterDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4285632E17189994008EAE7C /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilter" */;
+			buildConfigurationList = 422181BC1D047764003A015B /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilterDemo" */;
 			buildPhases = (
-				4285630D17189993008EAE7C /* Sources */,
-				4285630E17189993008EAE7C /* Frameworks */,
-				4285630F17189993008EAE7C /* Resources */,
+				422181A71D047764003A015B /* Sources */,
+				422181A81D047764003A015B /* Frameworks */,
+				422181A91D047764003A015B /* Resources */,
+				422181E91D047ADE003A015B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422181E31D047ADE003A015B /* PBXTargetDependency */,
+			);
+			name = NTJBilateralCIFilterDemo;
+			productName = NTJBilateralCIFilterDemo;
+			productReference = 422181AB1D047764003A015B /* NTJBilateralCIFilterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		422181DC1D047ADE003A015B /* NTJBilateralCIFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422181E61D047ADE003A015B /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilter" */;
+			buildPhases = (
+				422181D81D047ADE003A015B /* Sources */,
+				422181D91D047ADE003A015B /* Frameworks */,
+				422181DA1D047ADE003A015B /* Headers */,
+				422181DB1D047ADE003A015B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NTJBilateralCIFilter;
-			productName = BilateralFilter;
-			productReference = 4285631117189993008EAE7C /* NTJBilateralCIFilter.app */;
-			productType = "com.apple.product-type.application";
+			productName = NTJBilateralCIFilter;
+			productReference = 422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,6 +257,14 @@
 				CLASSPREFIX = NTJ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "nojo inc";
+				TargetAttributes = {
+					422181AA1D047764003A015B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					422181DC1D047ADE003A015B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
 			};
 			buildConfigurationList = 4285630C17189993008EAE7C /* Build configuration list for PBXProject "NTJBilateralCIFilter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -200,59 +272,224 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4285630817189993008EAE7C;
 			productRefGroup = 4285631217189993008EAE7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4285631017189993008EAE7C /* NTJBilateralCIFilter */,
+				422181AA1D047764003A015B /* NTJBilateralCIFilterDemo */,
+				422181DC1D047ADE003A015B /* NTJBilateralCIFilter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4285630F17189993008EAE7C /* Resources */ = {
+		422181A91D047764003A015B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428EDE731CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel in Resources */,
-				421DB1E717195EA400105DD5 /* Credits.rtf in Resources */,
-				42CE92CE1D00D005007E4BC0 /* bigblack_1.jpg in Resources */,
-				42CE92D41D00D005007E4BC0 /* ursprung_1.jpg in Resources */,
-				42CE92D01D00D005007E4BC0 /* pantha_1.jpg in Resources */,
-				42CE92D11D00D005007E4BC0 /* shellac_1.jpg in Resources */,
-				42CE92CB1D00D005007E4BC0 /* apatt_2.jpg in Resources */,
-				421DB1E917195EA400105DD5 /* InfoPlist.strings in Resources */,
-				42CE92CF1D00D005007E4BC0 /* mdam_1.jpg in Resources */,
-				42CE92CD1D00D005007E4BC0 /* apatt_4.jpg in Resources */,
-				421DB1EB17195EA400105DD5 /* MainMenu.xib in Resources */,
-				42CE92D31D00D005007E4BC0 /* shellac_3.jpg in Resources */,
-				42CE92CA1D00D005007E4BC0 /* apatt_1.jpg in Resources */,
-				42CE92D21D00D005007E4BC0 /* shellac_2.jpg in Resources */,
-				42CE92CC1D00D005007E4BC0 /* apatt_3.jpg in Resources */,
-				421DB1F117195EA400105DD5 /* NTJMainWindowController.xib in Resources */,
+				422181D21D0479E0003A015B /* shellac_2.jpg in Resources */,
+				422181CF1D0479E0003A015B /* mdam_1.jpg in Resources */,
+				422181B71D047764003A015B /* Assets.xcassets in Resources */,
+				422181CD1D0479E0003A015B /* apatt_4.jpg in Resources */,
+				422181D01D0479E0003A015B /* pantha_1.jpg in Resources */,
+				422181D11D0479E0003A015B /* shellac_1.jpg in Resources */,
+				422181CB1D0479E0003A015B /* apatt_2.jpg in Resources */,
+				422181CE1D0479E0003A015B /* bigblack_1.jpg in Resources */,
+				422181CC1D0479E0003A015B /* apatt_3.jpg in Resources */,
+				422181D41D0479E0003A015B /* ursprung_1.jpg in Resources */,
+				422181CA1D0479E0003A015B /* apatt_1.jpg in Resources */,
+				422181D31D0479E0003A015B /* shellac_3.jpg in Resources */,
+				422181BA1D047764003A015B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422181DB1D047ADE003A015B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422181EA1D047B54003A015B /* NTJBilateralCIFilter.cikernel in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4285630D17189993008EAE7C /* Sources */ = {
+		422181A71D047764003A015B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				421DB1EA17195EA400105DD5 /* main.m in Sources */,
-				421DB1EC17195EA400105DD5 /* NTJAppDelegate.m in Sources */,
-				428EDE6C1CFDDE9E009CCC5D /* NTJBilateralFilterRunner.m in Sources */,
-				421DB1F017195EA400105DD5 /* NTJMainWindowController.m in Sources */,
-				428EDE6F1CFDE002009CCC5D /* NTJBilateralCIFilter.m in Sources */,
+				422181B51D047764003A015B /* ViewController.m in Sources */,
+				422181D71D0479FC003A015B /* NTJBilateralFilterRunner.m in Sources */,
+				422181B21D047764003A015B /* main.m in Sources */,
+				422181AF1D047764003A015B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422181D81D047ADE003A015B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422181EB1D047B58003A015B /* NTJBilateralCIFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		422181E31D047ADE003A015B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422181DC1D047ADE003A015B /* NTJBilateralCIFilter */;
+			targetProxy = 422181E21D047ADE003A015B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		422181B81D047764003A015B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422181B91D047764003A015B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		422181BD1D047764003A015B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		422181BE1D047764003A015B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		422181E71D047ADE003A015B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		422181E81D047ADE003A015B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4285632C17189994008EAE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -311,49 +548,30 @@
 			};
 			name = Release;
 		};
-		4285632F17189994008EAE7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NTJBilateralCIFilter/NTJBilateralCIFilter-Prefix.pch";
-				INFOPLIST_FILE = "NTJBilateralCIFilter/NTJBilateralCIFilter-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.notjosh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = NTJBilateralCIFilter;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		4285633017189994008EAE7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NTJBilateralCIFilter/NTJBilateralCIFilter-Prefix.pch";
-				INFOPLIST_FILE = "NTJBilateralCIFilter/NTJBilateralCIFilter-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.notjosh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = NTJBilateralCIFilter;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		422181BC1D047764003A015B /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422181BD1D047764003A015B /* Debug */,
+				422181BE1D047764003A015B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		422181E61D047ADE003A015B /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422181E71D047ADE003A015B /* Debug */,
+				422181E81D047ADE003A015B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4285630C17189993008EAE7C /* Build configuration list for PBXProject "NTJBilateralCIFilter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4285632C17189994008EAE7C /* Debug */,
 				4285632D17189994008EAE7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4285632E17189994008EAE7C /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4285632F17189994008EAE7C /* Debug */,
-				4285633017189994008EAE7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 #import "NTJBilateralFilterRunner.h"
 
-#import "NTJBilateralCIFilter.h"
+@import NTJBilateralCIFilter;
 
 @interface NTJBilateralFilterRunner ()
 
