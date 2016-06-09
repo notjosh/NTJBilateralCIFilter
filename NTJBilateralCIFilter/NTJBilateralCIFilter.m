@@ -31,6 +31,13 @@ static CIKernel *filterKernel = nil;
 {
     if (filterKernel == nil) {
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+
+        // CocoaPods
+        NSURL *subBundleURL = [bundle URLForResource:@"NTJBilateralCIFilter" withExtension:@"bundle"];
+        if (subBundleURL) {
+            bundle = [NSBundle bundleWithURL:subBundleURL];
+        }
+
         NSString *code = [NSString stringWithContentsOfFile:[bundle pathForResource:@"NTJBilateralCIFilter"
                                                                              ofType:@"cikernel"]
                                                    encoding:NSUTF8StringEncoding
