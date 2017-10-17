@@ -60,11 +60,13 @@ static CIKernel *filterKernel = nil;
              NSStringFromSelector(@selector(sigma_R)): @{
                      kCIAttributeType: kCIAttributeTypeScalar,
                      kCIAttributeMin: @0.0,
+                     kCIAttributeMax: @30.0,
                      kCIAttributeDefault: @15,
                      },
              NSStringFromSelector(@selector(sigma_S)): @{
                      kCIAttributeType: kCIAttributeTypeScalar,
                      kCIAttributeMin: @0.0,
+                     kCIAttributeMax: @1.0,
                      kCIAttributeDefault: @0.2,
                      },
              };
@@ -74,8 +76,8 @@ static CIKernel *filterKernel = nil;
 {
     CISampler *src = [CISampler samplerWithImage:self.inputImage];
 
-    CIKernelROICallback callback = ^CGRect(int index, CGRect destRect) {
-        return CGRectInset(destRect,
+    CIKernelROICallback callback = ^(int index, CGRect rect) {
+        return CGRectInset(rect,
                            -self.sigma_R.floatValue,
                            -self.sigma_R.floatValue);
     };

@@ -46,6 +46,5 @@ normalisationFactor += weight;
 }
 }
 
-
 return vec4(colour / normalisationFactor, 1.0);
 }
