@@ -27,4 +27,4 @@ The three parameters are:
  TODO
  ====
 
-  - [ ] iOS demo (and compatibility? afaik it should Just Work™ though)
+  - [ ] Make it work properly on iOS. The image gets darker instead of blurring, perhaps a different shader language somehow? Or CoreImage works differently? Not sure.
