@@ -29,6 +29,29 @@
 		422181E51D047ADE003A015B /* NTJBilateralCIFilter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		422181EA1D047B54003A015B /* NTJBilateralCIFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */; };
 		422181EB1D047B58003A015B /* NTJBilateralCIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */; };
+		4271FECF1F968AA70001B53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271FECE1F968AA70001B53C /* main.m */; };
+		4271FED21F968AA70001B53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271FED11F968AA70001B53C /* AppDelegate.m */; };
+		4271FED51F968AA70001B53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271FED41F968AA70001B53C /* ViewController.m */; };
+		4271FED81F968AA70001B53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4271FED61F968AA70001B53C /* Main.storyboard */; };
+		4271FEDA1F968AA70001B53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4271FED91F968AA70001B53C /* Assets.xcassets */; };
+		4271FEDD1F968AA70001B53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4271FEDB1F968AA70001B53C /* LaunchScreen.storyboard */; };
+		4271FEE41F9694320001B53C /* apatt_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181BF1D0479E0003A015B /* apatt_1.jpg */; };
+		4271FEE51F9694320001B53C /* apatt_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C01D0479E0003A015B /* apatt_2.jpg */; };
+		4271FEE61F9694320001B53C /* apatt_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C11D0479E0003A015B /* apatt_3.jpg */; };
+		4271FEE71F9694320001B53C /* apatt_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C21D0479E0003A015B /* apatt_4.jpg */; };
+		4271FEE81F9694320001B53C /* bigblack_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C31D0479E0003A015B /* bigblack_1.jpg */; };
+		4271FEE91F9694320001B53C /* mdam_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C41D0479E0003A015B /* mdam_1.jpg */; };
+		4271FEEA1F9694320001B53C /* pantha_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C51D0479E0003A015B /* pantha_1.jpg */; };
+		4271FEEB1F9694320001B53C /* shellac_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C61D0479E0003A015B /* shellac_1.jpg */; };
+		4271FEEC1F9694320001B53C /* shellac_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C71D0479E0003A015B /* shellac_2.jpg */; };
+		4271FEED1F9694320001B53C /* shellac_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C81D0479E0003A015B /* shellac_3.jpg */; };
+		4271FEEE1F9694320001B53C /* ursprung_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422181C91D0479E0003A015B /* ursprung_1.jpg */; };
+		4271FEEF1F96974B0001B53C /* NTJBilateralFilterRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */; };
+		4271FEFD1F9699470001B53C /* NTJBilateralCIFilteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4271FEF61F9699470001B53C /* NTJBilateralCIFilteriOS.framework */; };
+		4271FEFE1F9699470001B53C /* NTJBilateralCIFilteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4271FEF61F9699470001B53C /* NTJBilateralCIFilteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4271FF031F9699640001B53C /* NTJBilateralCIFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 422181DF1D047ADE003A015B /* NTJBilateralCIFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4271FF041F9699690001B53C /* NTJBilateralCIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EDE6E1CFDE002009CCC5D /* NTJBilateralCIFilter.m */; };
+		4271FF051F969C640001B53C /* NTJBilateralCIFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 428EDE721CFDE114009CCC5D /* NTJBilateralCIFilter.cikernel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +61,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 422181DC1D047ADE003A015B;
 			remoteInfo = NTJBilateralCIFilter;
+		};
+		4271FEFB1F9699470001B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4285630917189993008EAE7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4271FEF51F9699470001B53C;
+			remoteInfo = NTJBilateralCIFilteriOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,6 +79,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				422181E51D047ADE003A015B /* NTJBilateralCIFilter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4271FF021F9699470001B53C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4271FEFE1F9699470001B53C /* NTJBilateralCIFilteriOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,22 +106,34 @@
 		422181B61D047764003A015B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422181B91D047764003A015B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		422181BB1D047764003A015B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		422181BF1D0479E0003A015B /* apatt_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_1.jpg; sourceTree = "<group>"; };
-		422181C01D0479E0003A015B /* apatt_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_2.jpg; sourceTree = "<group>"; };
-		422181C11D0479E0003A015B /* apatt_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_3.jpg; sourceTree = "<group>"; };
-		422181C21D0479E0003A015B /* apatt_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apatt_4.jpg; sourceTree = "<group>"; };
-		422181C31D0479E0003A015B /* bigblack_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigblack_1.jpg; sourceTree = "<group>"; };
-		422181C41D0479E0003A015B /* mdam_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mdam_1.jpg; sourceTree = "<group>"; };
-		422181C51D0479E0003A015B /* pantha_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantha_1.jpg; sourceTree = "<group>"; };
-		422181C61D0479E0003A015B /* shellac_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shellac_1.jpg; sourceTree = "<group>"; };
-		422181C71D0479E0003A015B /* shellac_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shellac_2.jpg; sourceTree = "<group>"; };
-		422181C81D0479E0003A015B /* shellac_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shellac_3.jpg; sourceTree = "<group>"; };
-		422181C91D0479E0003A015B /* ursprung_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ursprung_1.jpg; sourceTree = "<group>"; };
-		422181D51D0479FC003A015B /* NTJBilateralFilterRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJBilateralFilterRunner.h; sourceTree = "<group>"; };
-		422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJBilateralFilterRunner.m; sourceTree = "<group>"; };
+		422181BF1D0479E0003A015B /* apatt_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_1.jpg; path = NTJBilateralCIFilterDemo/apatt_1.jpg; sourceTree = "<group>"; };
+		422181C01D0479E0003A015B /* apatt_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_2.jpg; path = NTJBilateralCIFilterDemo/apatt_2.jpg; sourceTree = "<group>"; };
+		422181C11D0479E0003A015B /* apatt_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_3.jpg; path = NTJBilateralCIFilterDemo/apatt_3.jpg; sourceTree = "<group>"; };
+		422181C21D0479E0003A015B /* apatt_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_4.jpg; path = NTJBilateralCIFilterDemo/apatt_4.jpg; sourceTree = "<group>"; };
+		422181C31D0479E0003A015B /* bigblack_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigblack_1.jpg; path = NTJBilateralCIFilterDemo/bigblack_1.jpg; sourceTree = "<group>"; };
+		422181C41D0479E0003A015B /* mdam_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mdam_1.jpg; path = NTJBilateralCIFilterDemo/mdam_1.jpg; sourceTree = "<group>"; };
+		422181C51D0479E0003A015B /* pantha_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pantha_1.jpg; path = NTJBilateralCIFilterDemo/pantha_1.jpg; sourceTree = "<group>"; };
+		422181C61D0479E0003A015B /* shellac_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_1.jpg; path = NTJBilateralCIFilterDemo/shellac_1.jpg; sourceTree = "<group>"; };
+		422181C71D0479E0003A015B /* shellac_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_2.jpg; path = NTJBilateralCIFilterDemo/shellac_2.jpg; sourceTree = "<group>"; };
+		422181C81D0479E0003A015B /* shellac_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_3.jpg; path = NTJBilateralCIFilterDemo/shellac_3.jpg; sourceTree = "<group>"; };
+		422181C91D0479E0003A015B /* ursprung_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ursprung_1.jpg; path = NTJBilateralCIFilterDemo/ursprung_1.jpg; sourceTree = "<group>"; };
+		422181D51D0479FC003A015B /* NTJBilateralFilterRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTJBilateralFilterRunner.h; path = NTJBilateralCIFilterDemo/NTJBilateralFilterRunner.h; sourceTree = "<group>"; };
+		422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTJBilateralFilterRunner.m; path = NTJBilateralCIFilterDemo/NTJBilateralFilterRunner.m; sourceTree = "<group>"; };
 		422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTJBilateralCIFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		422181DF1D047ADE003A015B /* NTJBilateralCIFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTJBilateralCIFilter.h; sourceTree = "<group>"; };
 		422181E11D047ADE003A015B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4271FECB1F968AA70001B53C /* NTJBilateralCIFilteriOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTJBilateralCIFilteriOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4271FECE1F968AA70001B53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4271FED01F968AA70001B53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4271FED11F968AA70001B53C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4271FED31F968AA70001B53C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4271FED41F968AA70001B53C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4271FED71F968AA70001B53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4271FED91F968AA70001B53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4271FEDC1F968AA70001B53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4271FEDE1F968AA70001B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4271FEF61F9699470001B53C /* NTJBilateralCIFilteriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTJBilateralCIFilteriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4271FEF91F9699470001B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4285631417189993008EAE7C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4285631717189993008EAE7C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4285631817189993008EAE7C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -107,6 +160,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4271FEC81F968AA70001B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4271FEFD1F9699470001B53C /* NTJBilateralCIFilteriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4271FEF21F9699470001B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -117,8 +185,6 @@
 				422181AE1D047764003A015B /* AppDelegate.m */,
 				422181B31D047764003A015B /* ViewController.h */,
 				422181B41D047764003A015B /* ViewController.m */,
-				422181D51D0479FC003A015B /* NTJBilateralFilterRunner.h */,
-				422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */,
 				422181B61D047764003A015B /* Assets.xcassets */,
 				422181B81D047764003A015B /* Main.storyboard */,
 				422181BB1D047764003A015B /* Info.plist */,
@@ -130,17 +196,6 @@
 		422181B01D047764003A015B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				422181BF1D0479E0003A015B /* apatt_1.jpg */,
-				422181C01D0479E0003A015B /* apatt_2.jpg */,
-				422181C11D0479E0003A015B /* apatt_3.jpg */,
-				422181C21D0479E0003A015B /* apatt_4.jpg */,
-				422181C31D0479E0003A015B /* bigblack_1.jpg */,
-				422181C41D0479E0003A015B /* mdam_1.jpg */,
-				422181C51D0479E0003A015B /* pantha_1.jpg */,
-				422181C61D0479E0003A015B /* shellac_1.jpg */,
-				422181C71D0479E0003A015B /* shellac_2.jpg */,
-				422181C81D0479E0003A015B /* shellac_3.jpg */,
-				422181C91D0479E0003A015B /* ursprung_1.jpg */,
 				422181B11D047764003A015B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -157,11 +212,66 @@
 			path = NTJBilateralCIFilter;
 			sourceTree = "<group>";
 		};
+		4271FECC1F968AA70001B53C /* NTJBilateralCIFilteriOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4271FED01F968AA70001B53C /* AppDelegate.h */,
+				4271FED11F968AA70001B53C /* AppDelegate.m */,
+				4271FED31F968AA70001B53C /* ViewController.h */,
+				4271FED41F968AA70001B53C /* ViewController.m */,
+				4271FED61F968AA70001B53C /* Main.storyboard */,
+				4271FED91F968AA70001B53C /* Assets.xcassets */,
+				4271FEDB1F968AA70001B53C /* LaunchScreen.storyboard */,
+				4271FEDE1F968AA70001B53C /* Info.plist */,
+				4271FECD1F968AA70001B53C /* Supporting Files */,
+			);
+			path = NTJBilateralCIFilteriOSDemo;
+			sourceTree = "<group>";
+		};
+		4271FECD1F968AA70001B53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4271FECE1F968AA70001B53C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4271FEE21F9694180001B53C /* DemoShared */ = {
+			isa = PBXGroup;
+			children = (
+				422181D51D0479FC003A015B /* NTJBilateralFilterRunner.h */,
+				422181D61D0479FC003A015B /* NTJBilateralFilterRunner.m */,
+				422181BF1D0479E0003A015B /* apatt_1.jpg */,
+				422181C01D0479E0003A015B /* apatt_2.jpg */,
+				422181C11D0479E0003A015B /* apatt_3.jpg */,
+				422181C21D0479E0003A015B /* apatt_4.jpg */,
+				422181C31D0479E0003A015B /* bigblack_1.jpg */,
+				422181C41D0479E0003A015B /* mdam_1.jpg */,
+				422181C51D0479E0003A015B /* pantha_1.jpg */,
+				422181C61D0479E0003A015B /* shellac_1.jpg */,
+				422181C71D0479E0003A015B /* shellac_2.jpg */,
+				422181C81D0479E0003A015B /* shellac_3.jpg */,
+				422181C91D0479E0003A015B /* ursprung_1.jpg */,
+			);
+			name = DemoShared;
+			sourceTree = "<group>";
+		};
+		4271FEF71F9699470001B53C /* NTJBilateralCIFilteriOS */ = {
+			isa = PBXGroup;
+			children = (
+				4271FEF91F9699470001B53C /* Info.plist */,
+			);
+			path = NTJBilateralCIFilteriOS;
+			sourceTree = "<group>";
+		};
 		4285630817189993008EAE7C = {
 			isa = PBXGroup;
 			children = (
 				422181DE1D047ADE003A015B /* NTJBilateralCIFilter */,
+				4271FEF71F9699470001B53C /* NTJBilateralCIFilteriOS */,
+				4271FEE21F9694180001B53C /* DemoShared */,
 				422181AC1D047764003A015B /* NTJBilateralCIFilterDemo */,
+				4271FECC1F968AA70001B53C /* NTJBilateralCIFilteriOSDemo */,
 				4285631317189993008EAE7C /* Frameworks */,
 				4285631217189993008EAE7C /* Products */,
 			);
@@ -172,6 +282,8 @@
 			children = (
 				422181AB1D047764003A015B /* NTJBilateralCIFilterDemo.app */,
 				422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */,
+				4271FECB1F968AA70001B53C /* NTJBilateralCIFilteriOSDemo.app */,
+				4271FEF61F9699470001B53C /* NTJBilateralCIFilteriOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +317,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				422181E01D047ADE003A015B /* NTJBilateralCIFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4271FEF31F9699470001B53C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4271FF031F9699640001B53C /* NTJBilateralCIFilter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +368,43 @@
 			productReference = 422181DD1D047ADE003A015B /* NTJBilateralCIFilter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4271FECA1F968AA70001B53C /* NTJBilateralCIFilteriOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4271FEE11F968AA70001B53C /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilteriOSDemo" */;
+			buildPhases = (
+				4271FEC71F968AA70001B53C /* Sources */,
+				4271FEC81F968AA70001B53C /* Frameworks */,
+				4271FEC91F968AA70001B53C /* Resources */,
+				4271FF021F9699470001B53C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4271FEFC1F9699470001B53C /* PBXTargetDependency */,
+			);
+			name = NTJBilateralCIFilteriOSDemo;
+			productName = NTJBilateralCIFilteriOSDemo;
+			productReference = 4271FECB1F968AA70001B53C /* NTJBilateralCIFilteriOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4271FEF51F9699470001B53C /* NTJBilateralCIFilteriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4271FEFF1F9699470001B53C /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilteriOS" */;
+			buildPhases = (
+				4271FEF11F9699470001B53C /* Sources */,
+				4271FEF21F9699470001B53C /* Frameworks */,
+				4271FEF31F9699470001B53C /* Headers */,
+				4271FEF41F9699470001B53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTJBilateralCIFilteriOS;
+			productName = NTJBilateralCIFilteriOS;
+			productReference = 4271FEF61F9699470001B53C /* NTJBilateralCIFilteriOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,6 +420,14 @@
 					};
 					422181DC1D047ADE003A015B = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					4271FECA1F968AA70001B53C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					4271FEF51F9699470001B53C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -281,6 +446,8 @@
 			targets = (
 				422181AA1D047764003A015B /* NTJBilateralCIFilterDemo */,
 				422181DC1D047ADE003A015B /* NTJBilateralCIFilter */,
+				4271FECA1F968AA70001B53C /* NTJBilateralCIFilteriOSDemo */,
+				4271FEF51F9699470001B53C /* NTJBilateralCIFilteriOS */,
 			);
 		};
 /* End PBXProject section */
@@ -314,6 +481,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4271FEC91F968AA70001B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4271FEE41F9694320001B53C /* apatt_1.jpg in Resources */,
+				4271FEEC1F9694320001B53C /* shellac_2.jpg in Resources */,
+				4271FEE71F9694320001B53C /* apatt_4.jpg in Resources */,
+				4271FEDD1F968AA70001B53C /* LaunchScreen.storyboard in Resources */,
+				4271FEE91F9694320001B53C /* mdam_1.jpg in Resources */,
+				4271FEDA1F968AA70001B53C /* Assets.xcassets in Resources */,
+				4271FEEA1F9694320001B53C /* pantha_1.jpg in Resources */,
+				4271FEEB1F9694320001B53C /* shellac_1.jpg in Resources */,
+				4271FEE81F9694320001B53C /* bigblack_1.jpg in Resources */,
+				4271FEED1F9694320001B53C /* shellac_3.jpg in Resources */,
+				4271FEE51F9694320001B53C /* apatt_2.jpg in Resources */,
+				4271FEEE1F9694320001B53C /* ursprung_1.jpg in Resources */,
+				4271FEE61F9694320001B53C /* apatt_3.jpg in Resources */,
+				4271FED81F968AA70001B53C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4271FEF41F9699470001B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4271FF051F969C640001B53C /* NTJBilateralCIFilter.cikernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -336,6 +532,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4271FEC71F968AA70001B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4271FED51F968AA70001B53C /* ViewController.m in Sources */,
+				4271FEEF1F96974B0001B53C /* NTJBilateralFilterRunner.m in Sources */,
+				4271FED21F968AA70001B53C /* AppDelegate.m in Sources */,
+				4271FECF1F968AA70001B53C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4271FEF11F9699470001B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4271FF041F9699690001B53C /* NTJBilateralCIFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -343,6 +558,11 @@
 			isa = PBXTargetDependency;
 			target = 422181DC1D047ADE003A015B /* NTJBilateralCIFilter */;
 			targetProxy = 422181E21D047ADE003A015B /* PBXContainerItemProxy */;
+		};
+		4271FEFC1F9699470001B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4271FEF51F9699470001B53C /* NTJBilateralCIFilteriOS */;
+			targetProxy = 4271FEFB1F9699470001B53C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,6 +573,22 @@
 				422181B91D047764003A015B /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4271FED61F968AA70001B53C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4271FED71F968AA70001B53C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4271FEDB1F968AA70001B53C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4271FEDC1F968AA70001B53C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -490,6 +726,158 @@
 			};
 			name = Release;
 		};
+		4271FEDF1F968AA70001B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilteriOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilteriOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4271FEE01F968AA70001B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilteriOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilteriOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4271FF001F9699470001B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilteriOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilteriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4271FF011F9699470001B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NTJBilateralCIFilteriOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJBilateralCIFilteriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4285632C17189994008EAE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -558,12 +946,30 @@
 				422181BE1D047764003A015B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422181E61D047ADE003A015B /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				422181E71D047ADE003A015B /* Debug */,
 				422181E81D047ADE003A015B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4271FEE11F968AA70001B53C /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilteriOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4271FEDF1F968AA70001B53C /* Debug */,
+				4271FEE01F968AA70001B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4271FEFF1F9699470001B53C /* Build configuration list for PBXNativeTarget "NTJBilateralCIFilteriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4271FF001F9699470001B53C /* Debug */,
+				4271FF011F9699470001B53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

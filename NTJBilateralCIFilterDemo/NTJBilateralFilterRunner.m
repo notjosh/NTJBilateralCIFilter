@@ -8,7 +8,11 @@
 
 #import "NTJBilateralFilterRunner.h"
 
+#if TARGET_OS_OSX
 @import NTJBilateralCIFilter;
+#else
+@import NTJBilateralCIFilteriOS;
+#endif
 
 @interface NTJBilateralFilterRunner ()
 
@@ -46,7 +50,7 @@
     CFRelease(provider);
 }
 
-- (void)prepareAsSize:(NSSize)size {
+- (void)prepareAsSize:(CGSize)size {
     if (CGImageGetWidth(self.cgImage) == size.width &&
         CGImageGetHeight(self.cgImage) == size.height) {
 
@@ -80,7 +84,7 @@
     }
 }
 
-- (NSImage *)runWithSigma_R:(double)sigma_R sigma_S:(double)sigma_S
+- (IMAGE *)runWithSigma_R:(double)sigma_R sigma_S:(double)sigma_S
 {
     if (self.ciImage) {
         CIFilter *filter = [CIFilter filterWithName:NSStringFromClass([NTJBilateralCIFilter class])];
@@ -91,6 +95,7 @@
                                                  NSStringFromSelector(@selector(sigma_S)): @(sigma_S),
                                                  }];
 
+#if TARGET_OS_OSX
         CIImage *image = [filter valueForKey:kCIOutputImageKey];
 
         NSCIImageRep *rep = [NSCIImageRep imageRepWithCIImage:image];
@@ -98,6 +103,11 @@
         [nsImage addRepresentation:rep];
 
         return nsImage;
+#else
+        CIImage *image = filter.outputImage;
+        UIImage *uiImage = [[UIImage alloc] initWithCIImage:image];
+        return uiImage;
+#endif
     }
 
     return nil;

@@ -50,7 +50,11 @@ static CIKernel *filterKernel = nil;
     return [super init];
 }
 
+#if TARGET_OS_OSX
 - (NSDictionary *)customAttributes
+#else
++ (NSDictionary *)customAttributes
+#endif
 {
     return @{
              NSStringFromSelector(@selector(sigma_R)): @{
@@ -70,14 +74,15 @@ static CIKernel *filterKernel = nil;
 {
     CISampler *src = [CISampler samplerWithImage:self.inputImage];
 
-    return [self apply:
-            filterKernel,
-            src,
-            self.sigma_R,
-            self.sigma_S,
-            kCIApplyOptionDefinition,
-            src.definition,
-            nil];
+    CIKernelROICallback callback = ^CGRect(int index, CGRect destRect) {
+        return CGRectInset(destRect,
+                           -self.sigma_R.floatValue,
+                           -self.sigma_R.floatValue);
+    };
+
+    return [filterKernel applyWithExtent:self.inputImage.extent
+                             roiCallback:callback
+                               arguments:@[src, self.sigma_R, self.sigma_S]];
 }
 
 @end
